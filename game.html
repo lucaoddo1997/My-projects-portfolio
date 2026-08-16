@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Memory game</title>
+    <link rel="stylesheet" href="style.css" type="text/css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap" rel="stylesheet">
+    <script src="index.js" defer></script>
+</head>
+
+<body>
+    <div id="game_area"></div>
+    <div id="div1">
+        <p>Attempts remaining: <span id="number_of_attempts"></span></p></span>
+        <button onclick="restart()" id="b1">Restart</button>
+        <p><a href="./index.html">Go Back</a></p>
+    </div>
+    <footer></footer>
+    <script>
+        const f = document.querySelector("footer");
+        f.innerText = "Copyright © " + new Date().getFullYear();
+    </script>
+</body>
+
+</html>
